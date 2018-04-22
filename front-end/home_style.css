@@ -1,13 +1,23 @@
-*{
-	border: 2px solid Red;
+* {
+	border: 2px solid red;
 	/*margin: 0;*/
 }
-body{
-	background-color: Black;
+body {
+	background-color: black;
 }
-p{
-	color: White;
+span {
+	color: white;
 }
-#redtxt{
-	color: Red;
+.redtxt {
+	color: red;
+}
+.tagline {
+	border: 2px solid white;
+	padding: 50px;
+	margin: auto;
+	width: 20%;
+	display: flex;
+  	align-items: center;
+ 	justify-content: center;
+ 	position: relative;
 }
