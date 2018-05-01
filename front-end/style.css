@@ -1,0 +1,62 @@
+/*SASS*/
+/*First going SASS syntax, then - CSS*/
+.tagline, .head, .search #advanced {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagline, .head {
+  border-style: solid;
+  border-color: red;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+}
+
+/*Here starts CSS*/
+* {
+  /*border: 2px solid red;*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*background-color: black;*/
+}
+
+p, span {
+  /*color: white;*/
+}
+
+.redtxt {
+  color: red;
+}
+
+.tagline {
+  width: 230px;
+  padding: 20px;
+  padding-bottom: 5px;
+  margin: auto;
+}
+
+.h_button {
+  width: 75px;
+  margin: 20px;
+  border: 1px solid red;
+  display: inline-block;
+  text-align: center;
+}
+
+.search {
+  border: 1px solid red;
+  display: block;
+  width: 240px;
+  height: 100px;
+}
+.search #advanced {
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=style.css.map */
